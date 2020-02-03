@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="author" content="nstop777" />
+    <meta name="description" content="Welcome to my kakao clone" />
+    <script
+      src="https://kit.fontawesome.com/f983e24f7c.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="css/style.css" />
+    <title>find.html</title>
+  </head>
+  <body>
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <span class="status-bar__clock">13:54</span>
+      </div>
+      <div class="status-bar__column">
+        <i class="fas fa-clock"></i>
+        <i class="fas fa-volume-mute"></i>
+        <i class="fas fa-wifi"></i>
+        <span>Battery 75%</span>
+        <i class="fas fa-battery-three-quarters"></i>
+      </div>
+    </div>
+    <header class="header">
+      <div class="header__header-column">
+        <h1 class="header__title">Find</h1>
+      </div>
+      <div class="header__header-column">
+        <span class="header__icon">
+          <i class="fas fa-search"></i>
+        </span>
+        <span class="header__icon">
+          <i class="far fa-comment"></i>
+        </span>
+        <span class="header__icon">
+          <i class="fas fa-cog"></i>
+        </span>
+      </div>
+    </header>
+    <main class="find">
+      <header class="find__header">
+        <ul class="find__header-list">
+          <li class="find__header-button header-btn">
+            <span class="header-btn__icon">
+              <i class="fas fa-qrcode fa-2x"></i>
+            </span>
+            <span class="header-btn__title">QR code</span>
+          </li>
+          <li class="find__header-button header-btn">
+            <span class="header-btn__icon">
+              <i class="far fa-address-book fa-2x"></i>
+            </span>
+            <span class="header-btn__title">Add by contacts</span>
+          </li>
+          <li class="find__header-button header-btn">
+            <span class="header-btn__icon">
+              <i class="fas fa-passport fa-2x"></i>
+            </span>
+            <span class="header-btn__title">Add by ID</span>
+          </li>
+          <li class="find__header-button header-btn">
+            <span class="header-btn__icon">
+              <i class="far fa-envelope fa-2x"></i>
+            </span>
+            <span class="header-btn__title">Invite</span>
+          </li>
+        </ul>
+      </header>
+      <ul class="find__recommended">
+        <h5 class="find__title">Recommended Friends</h5>
+        <li class="find_friend friend friend--lg">
+          <div class="friend__column">
+            <img src="images/my-avatar.jpg" alt="" class="friend__avatar" />
+            <div class="friend__content">
+              <span class="friend__name">Henry</span>
+            </div>
+          </div>
+          <div class="friend__column">
+            <div class="friend__add-btn">
+              <i class="fas fa-user-plus"></i>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </main>
+    <nav class="navi">
+      <ul class="navi__list">
+        <div class="li navi__list-item">
+          <a href="friends.html" class="navi__list-link">
+            <i class="far fa-user"></i>
+          </a>
+        </div>
+        <div class="li navi__list-item">
+          <a href="index.html" class="navi__list-link">
+            <i class="far fa-comment"></i>
+          </a>
+        </div>
+        <div class="li navi__list-item">
+          <a href="find.html" class="navi__list-link">
+            <i class="fas fa-search"></i>
+          </a>
+        </div>
+        <div class="li navi__list-item">
+          <a href="more.html" class="navi__list-link">
+            <i class="fas fa-ellipsis-h"></i>
+          </a>
+        </div>
+      </ul>
+    </nav>
+  </body>
+</html>
